@@ -100,6 +100,7 @@ header li a {
 #imagePrincipale {
   padding-top: 60px;
   background: url(media/haupt.jpg) no-repeat fixed 50% 50%;
+  background-position: center;
   background-size: cover;
   height: 650px;
 }
@@ -108,12 +109,14 @@ header li a {
   background: url(media/mechaaa.jpg) no-repeat fixed 50% 50%;
   background-size: cover;
   height: 650px;
+    background-position: center;
 }
   #imagePrincipale_bat {
     padding-top: 60px;
     background: url(media/Yegteg.jpg) no-repeat fixed 50% 50%;
     background-size: cover;
     height: 650px;
+      background-position: center;
   }
   
 #deffilage{
