@@ -113,7 +113,7 @@ header li a {
 }
   #imagePrincipale_bat {
   padding-top: 60px;
-  background: url(media/batt.jpg) no-repeat center center;
+  background: url(media/battt.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: scroll; /* don't use 'fixed' on mobile */
   height: 70vh;
