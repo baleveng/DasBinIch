@@ -102,21 +102,28 @@ header li a {
   background: url(media/haupt.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: scroll; /* don't use 'fixed' on mobile */
-  height: 100vh;
+  height: 80vh;
 }
 #imagePrincipale_mecha {
   padding-top: 60px;
-  background: url(media/haupt.jpg) no-repeat center center;
+  background: url(media/mechaa.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: scroll; /* don't use 'fixed' on mobile */
-  height: 100vh;
+  height: 70vh;
 }
   #imagePrincipale_bat {
   padding-top: 60px;
-  background: url(media/haupt.jpg) no-repeat center center;
+  background: url(media/batt.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: scroll; /* don't use 'fixed' on mobile */
-  height: 80vh;
+  height: 70vh;
+  }
+  #imagePrincipale_yegteg {
+  padding-top: 60px;
+  background: url(media/Yegteg.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: scroll; /* don't use 'fixed' on mobile */
+  height: 70vh;
   }
   
 #deffilage{
