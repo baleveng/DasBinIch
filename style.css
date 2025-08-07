@@ -199,17 +199,22 @@ p {
 }
 #prestations {
  
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 18px 10%;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* ← aligne les éléments enfants au centre */
+    max-width: 1200px;        /* ← largeur maximale de la galerie */
+    margin: 0 auto;           /* ← centre la galerie elle-même */
+    padding: 4px 16px;        /* ← un petit padding intérieur */
+    gap: 12px;
 }
 #galerie12 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 2px 10%;  
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* ← aligne les éléments enfants au centre */
+    max-width: 1200px;        /* ← largeur maximale de la galerie */
+    margin: 0 auto;           /* ← centre la galerie elle-même */
+    padding: 4px 16px;        /* ← un petit padding intérieur */
+    gap: 12px;                /* ← espace entre les éléments */
 }
 .imagesPrestations12 img {
   border-radius: 10px;
