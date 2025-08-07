@@ -99,10 +99,10 @@ header li a {
 /* **************** IMAGE PRINCIPALE ************* */
 #imagePrincipale {
   padding-top: 60px;
-  background: url(media/haupt.jpg) no-repeat fixed 50% 50%;
-  background-position: center;
+  background: url(media/haupt.jpg) no-repeat center center;
   background-size: cover;
-  height: 650px;
+  background-attachment: scroll; /* don't use 'fixed' on mobile */
+  height: 100vh;
 }
 #imagePrincipale_mecha {
   padding-top: 60px;
