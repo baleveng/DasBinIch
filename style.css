@@ -104,13 +104,30 @@ header li a {
   background-attachment: scroll; /* don't use 'fixed' on mobile */
   height: 80vh;
 }
+
+
 #imagePrincipale_mecha {
   padding-top: 60px;
   background: url(media/mechaaa.jpg) no-repeat center center;
   background-size: cover;
-  background-attachment: scroll; /* don't use 'fixed' on mobile */
+  background-attachment: scroll;
   height: 40vh;
+  width: 100%;
 }
+
+body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  #imagePrincipale_mecha {
+    height: 30vh;
+    background-position: center top;
+  }
+}
+
+
+
   #imagePrincipale_bat {
   padding-top: 60px;
   background: url(media/Battt.jpg) no-repeat center center;
