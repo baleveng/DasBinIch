@@ -106,17 +106,17 @@ header li a {
 }
 #imagePrincipale_mecha {
   padding-top: 60px;
-  background: url(media/mechaaa.jpg) no-repeat fixed 50% 50%;
+  background: url(media/haupt.jpg) no-repeat center center;
   background-size: cover;
-  height: 650px;
-    background-position: center;
+  background-attachment: scroll; /* don't use 'fixed' on mobile */
+  height: 100vh;
 }
   #imagePrincipale_bat {
-    padding-top: 60px;
-    background: url(media/Yegteg.jpg) no-repeat fixed 50% 50%;
-    background-size: cover;
-    height: 650px;
-      background-position: center;
+  padding-top: 60px;
+  background: url(media/haupt.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: scroll; /* don't use 'fixed' on mobile */
+  height: 80vh;
   }
   
 #deffilage{
