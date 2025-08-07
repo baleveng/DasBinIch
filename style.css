@@ -103,6 +103,7 @@ header li a {
   background-size: cover;
   background-attachment: scroll; /* don't use 'fixed' on mobile */
   height: 80vh;
+  width: 100%;
 }
 
 
@@ -111,7 +112,7 @@ header li a {
   background: url(media/mechaaa.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: scroll;
-  height: 40vh;
+  height: 50vh;
   width: 100%;
 }
 
@@ -133,7 +134,8 @@ body {
   background: url(media/Battt.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: scroll; /* don't use 'fixed' on mobile */
-  height: 40vh;
+  height: 50vh;
+  width: 100%;
   }
   #imagePrincipale_yegteg {
   padding-top: 60px;
