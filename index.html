@@ -1,848 +1,212 @@
-@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
-@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
-html {
-  scroll-behavior: smooth;
-}
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
 
-body {
-  font-family: 'Advent Pro', sans-serif;
-  padding: 0;
-  margin: 0;
-}
-ul {
-  margin: 0;
-  padding: 0;
-}
-li {
-  list-style-type: none;
-  transition: 1s;
-}
-h6{
-  text-transform: uppercase;
-  text-align: center;
-  padding-top: 3px;
-  font-size: 2em;
-  background-color: rgba(18, 31, 58, 0.247);
+    <title>Cleo Technologie</title>
 
-}
-.kana23{
-  border-radius: 5px;
-  background-color: #1a0dce6e;
-  padding: 20px;
-}
-h2 {
-  text-transform: none;
-  text-align: center;
-  padding-top: 2px;
-  font-size: 0,5em;
-  background-color:   #51724ece;
-}
-h4 {
-  text-transform: none;
-  text-align: left;
- 
-  font-size: 2em;
- 
-}
-a {
-  text-decoration: none;
-  color: rgba(247, 245, 245, 0.986);
-  transition: 0.3s;
-}
-/* ******************* NAVBAR ******************* */
-nav {
-  overflow: hidden;
-  background-color: #137297;
-  position: relative;
-  width: 100%;
-  opacity: 0.9;
-  transition: 0.3s;
-}
-nav a:hover  {
-  display: inline-block;
-  transform: scale(1.5);
-  transition: 0.1s;
-}
-nav_mecha{
-  overflow: hidden;
-  background-color: #51724ece;
-  position: absolute;
-  width: 100%;
-  opacity: 0.9;
-}
-nav_bat{
-  overflow: hidden;
-  background-color: #432083;
-  position: fixed;
-  width: 100%;
-  opacity: 0.9;
-}
+    <link rel="stylesheet" href="style.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href ="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
 
-header li {
-  float: right;
-  font-size: 1.2em; /*La Großeur du Texte*/
- 
- 
-}
-header li a {
-  text-decoration: none;
-  display: block;
-  text-align: center;
-  padding: 20px 16px;
-}
-#logo {
-  /*font-family: 'Dancing Script', cursive;*/
-  font-weight: bold;
-  float: left;
-  font-size: 2.5em;
-}
-/* **************** IMAGE PRINCIPALE ************* */
-#imagePrincipale {
-  padding-top: 60px;
-  background: url(media/haupt.jpg) no-repeat fixed 50% 50%;
-  background-size: cover;
-  height: 650px;
-}
-#imagePrincipale_mecha {
-  padding-top: 60px;
-  background: url(media/mechaaa.jpg) no-repeat fixed 50% 50%;
-  background-size: cover;
-  height: 650px;
-}
-  #imagePrincipale_bat {
-    padding-top: 60px;
-    background: url(media/Yegteg.jpg) no-repeat fixed 50% 50%;
-    background-size: cover;
-    height: 650px;
-  }
+    <header>
+      <nav>
+        <ul>
+          <li id="logo"><a href="#"><i class="fa fa-home" aria-hidden="true"></i>Cleo Technologie</a></li>
+          <li><a href="login.html"><i class="fas fa-sign-in-alt"></i> login</a></li>
+          <li><a href="index2.html">CLEO-Batiment</a></li>
+          <li><a href="mecha.html">CLEO-Mecanique</a></li>
+          <li><a href="yegteg.html">YEGTEG</a></li>
+        
+          <li><a href="#contact">Nous contacter</a></li>
+          <li><a href="#contact">Notre Galerie</a></li>
+        </ul>
+      </nav>
+      <div id="imagePrincipale">
+        <h1>Cleo Technologie</h1>
+        <div id="premierTrait"></div>
+        <h3>Le numero 1 du 3D </h3>
+        <div id="deffilage">
+          <h2  style="color: rgb(241, 241, 241); background-color: rgba(6, 78, 119, 0.822);">
+            <marquee behavior="scroll"> CLEO TECHNOLOGIE LA REFERENCE POUR DIGITALISER VOTRE INDUSTRIE EN AFRIQUE CENTRAL  </marquee>
+          </h2>
+        </div>
+      </div>
+
+    </header>
+    <section id="presentation">
+      <div id="texteIntro">
+
+
+        <h2>BIENVENUE CHEZ CLEO TECHNOLOGIE</h2>
+        
+<p>
   
-#deffilage{
-  height: 10px;
-  width: 50%; /*pour definir la longueeur du cadre*/
-  margin: -3px auto;
-  background-color: #16012770;
-  box-shadow: 1px 3px 2px black;
-  margin-top: 250px;
+  La conception assistée par ordinateur ou CAO (en anglais, computer aided design ou CAD) comprend l'ensemble des 
+  logiciels et des techniques de modélisation géométrique permettant de concevoir, de tester virtuellement – à l'aide 
+  d'un ordinateur et des techniques de simulation numérique – et de réaliser des produits manufacturés et les outils 
+  pour les fabriquer.
 
-}
-h1 {
-  font-family: 'Dancing Script', cursive;
-  text-align: center;
-  color: antiquewhite;
-  font-size: 6em;
-  margin-top: 100px;
-  text-shadow: 1px 3px 2px black;
-}
-#premierTrait {
-  height: 1px;
-  width: 25%;
-  margin: -3px auto;
-  background-color: #FFFAE1;
-  box-shadow: 1px 3px 2px black;
-}
-h3 {
-  text-align: center;
-  color:black;
-  font-size: 2em;
-  text-shadow: 1px 3px 2px rgba(51, 52, 139, 0.24);
-}
-p {
-  text-align: center;
-  color:black;
-  font-size: 1.5em;
-  
-}
-/* *************** PRESENTATION ********************** */
-#presentation {
-  background-color: rgba(234, 233, 241, 0.336);
-  padding: 10px 0px 100px 0;
-  
-}
+On confond souvent CAO et DAO (dessin assisté par ordinateur) : la CAO n'a pas pour fonction première l'édition 
+du dessin. Il s'agit d'un outil informatique souvent lié à un métier, fonctionnant en langage dit objet, et permettant 
+l'organisation virtuelle de fonctions techniques. Cela permet ensuite la simulation de comportement de l'objet conçu, 
+l'édition éventuelle d'un plan ou d'un schéma étant automatique et accessoire. En DAO, un trait est un trait et le logiciel ne 
+permet pas l'interprétation technique de l'ensemble.
+</p>
+        <h2>un Sercie Unique offert par des Ingenieurs uniques</h2>
+        
+      </div>
 
-  
-
-#galerie {
-    background: linear-gradient(135deg, #e1e4ff 0%, #f5f7ff 100%);
-    padding: 80px 0;
-}
-
-.galerie-container {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 5%;
-}
-
-.galerie-card {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    align-items: center;
-    background: white;
-    border-radius: 20px;
-    padding: 50px;
-    margin-bottom: 60px;
-    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.08);
-    transition: all 0.4s ease;
-    position: relative;
-    overflow: hidden;
-}
-
-.galerie-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 5px;
-    height: 100%;
-    background: linear-gradient(180deg, #137297, #1a9ac9);
-    transition: width 0.4s ease;
-}
-
-.galerie-card:hover::before {
-    width: 100%;
-    opacity: 0.05;
-}
-
-.galerie-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 20px 60px rgba(19, 114, 151, 0.15);
-}
-
-/* Alternate layout for right card */
-.galerie-card-right {
-    direction: ltr;
-}
-
-.galerie-card-right::before {
-    left: auto;
-    right: 0;
-    background: linear-gradient(180deg, #51724e, #6a9460);
-}
-
-.galerie-image {
-    position: relative;
-    height: 450px;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-}
-
-.image-slider {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    transition: transform 0.3s ease;
-}
-
-.galerie-card:hover .image-slider {
-    transform: scale(1.05);
-}
-
-/* Keep your existing d1 and d2 animations */
-.d1 {
-    animation: fondu 30s ease-in-out infinite both;
-}
-
-.d2 {
-    animation: fondu2 20s ease-in-out infinite both;
-}
-
-.d1:hover, .d2:hover {
-    animation-play-state: paused;
-}
-
-.galerie-content {
-    padding: 20px;
-    direction: ltr;
-}
-
-.galerie-badge {
-    display: inline-block;
-    background: linear-gradient(135deg, #137297, #1a9ac9);
-    color: white;
-    padding: 8px 25px;
-    border-radius: 25px;
-    font-size: 0.9em;
-    font-weight: 600;
-    margin-bottom: 20px;
-    box-shadow: 0 5px 15px rgba(19, 114, 151, 0.3);
-}
-
-.galerie-card-right .galerie-badge {
-    background: linear-gradient(135deg, #51724e, #6a9460);
-    box-shadow: 0 5px 15px rgba(81, 114, 78, 0.3);
-}
-
-.galerie-title {
-    font-family: 'Dancing Script', cursive;
-    font-size: 2.5em;
-    color: #137297;
-    margin: 15px 0;
-    font-weight: 600;
-    text-align: left;
-    background: transparent;
-    padding: 0;
-}
-
-.galerie-card-right .galerie-title {
-    color: #51724e;
-}
-
-.galerie-subtitle {
-    font-size: 1.6em;
-    color: #333;
-    margin: 20px 0 15px 0;
-    font-weight: 600;
-    text-align: left;
-}
-
-.galerie-text {
-    color: #555;
-    font-size: 1.1em;
-    line-height: 1.8;
-    margin-bottom: 20px;
-    text-align: left;
-}
-
-.galerie-btn {
-    display: inline-block;
-    padding: 15px 35px;
-    background: linear-gradient(135deg, #137297, #1a9ac9);
-    color: white;
-    text-decoration: none;
-    border-radius: 30px;
-    font-weight: 600;
-    font-size: 1.1em;
-    transition: all 0.3s ease;
-    box-shadow: 0 8px 20px rgba(19, 114, 151, 0.3);
-    margin-top: 10px;
-}
-
-.galerie-btn:hover {
-    background: linear-gradient(135deg, #0f5a78, #137297);
-    transform: translateY(-2px);
-    box-shadow: 0 12px 25px rgba(19, 114, 151, 0.4);
-}
-
-.galerie-card-right .galerie-btn {
-    background: linear-gradient(135deg, #51724e, #6a9460);
-    box-shadow: 0 8px 20px rgba(81, 114, 78, 0.3);
-}
-
-.galerie-card-right .galerie-btn:hover {
-    background: linear-gradient(135deg, #3f5a3d, #51724e);
-    box-shadow: 0 12px 25px rgba(81, 114, 78, 0.4);
-}
-
-/* Responsive Design */
-@media (max-width: 1024px) {
-    .galerie-card {
-        grid-template-columns: 1fr;
-        padding: 40px 30px;
-        gap: 30px;
-    }
+     <div id="prestations">
+    <div class="card-prestations">
+        <div class="card-image-wrapper">
+            <img src="media/carte.JPG" alt="carte">
+            <div class="card-overlay"></div>
+            <span class="card-badge">Service 1</span>
+        </div>
+        <div class="card-content">
+            <h4 class="card-title">Design & Conception</h4>
+            <p class="card-description">
+                Nous offrons des solutions de conception assistée par ordinateur 
+                de haute qualité pour vos projets industriels et architecturaux.
+            </p>
+            <a href="#" class="card-link">En savoir plus →</a>
+        </div>
+    </div>
     
-    .galerie-card-right {
-        direction: ltr;
-    }
+    <div class="card-prestations">
+        <div class="card-image-wrapper">
+            <img src="media/chambre.JPG" alt="chambre">
+            <div class="card-overlay"></div>
+            <span class="card-badge">Service 2</span>
+        </div>
+        <div class="card-content">
+            <h4 class="card-title">Modélisation 3D</h4>
+            <p class="card-description">
+                Expertise en modélisation 3D pour transformer vos idées en 
+                représentations virtuelles précises et réalistes.
+            </p>
+            <a href="#" class="card-link">En savoir plus →</a>
+        </div>
+    </div>
     
-    .galerie-image {
-        height: 350px;
-        order: -1; /* Image always on top on mobile */
-    }
-    
-    .galerie-title {
-        font-size: 2em;
-    }
-    
-    .galerie-subtitle {
-        font-size: 1.4em;
-    }
-}
+    <div class="card-prestations">
+        <div class="card-image-wrapper">
+            <img src="media/repas.JPG" alt="repas">
+            <div class="card-overlay"></div>
+            <span class="card-badge">Service 3</span>
+        </div>
+        <div class="card-content">
+            <h4 class="card-title">Formation CAD</h4>
+            <p class="card-description">
+                Des formations spécialisées pour maîtriser les outils CAD et 
+                optimiser vos processus de conception industrielle.
+            </p>
+            <a href="#" class="card-link">En savoir plus →</a>
+        </div>
+    </div>
+</div>
+    </section>
 
-@media (max-width: 768px) {
-    #galerie {
-        padding: 50px 0;
-    }
-    
-    .galerie-card {
-        padding: 30px 20px;
-        margin-bottom: 40px;
-    }
-    
-    .galerie-image {
-        height: 280px;
-    }
-    
-    .galerie-title {
-        font-size: 1.8em;
-    }
-    
-    .galerie-text {
-        font-size: 1em;
-    }
-    
-    .galerie-btn {
-        width: 100%;
-        text-align: center;
-        padding: 12px 25px;
-    }
-}
+   <section id="galerie">
+    <div class="galerie-container">
+        
+        <!-- Cleo Mécanique Card -->
+        <div class="galerie-card galerie-card-left">
+            <div class="galerie-image">
+                <div class="image-slider d1"></div>
+            </div>
+            <div class="galerie-content">
+                <div class="galerie-badge">Mécanique</div>
+                <h2 class="galerie-title">Cleo Mécanique</h2>
+                <h3 class="galerie-subtitle">Pourquoi le CAD ?</h3>
+                <p class="galerie-text">
+                    Dans le secteur de la construction et de la fabrication mécanique, il est aujourd'hui 
+                    indispensable pour toute entreprise de s'adapter aux évolutions technologiques constantes. 
+                    L'utilisation d'outils de Conception Assistée par Ordinateur (CAD) est devenue une composante 
+                    essentielle pour rester compétitif.
+                </p>
+                <p class="galerie-text">
+                    Face à cette modernisation rapide, CLEO vous propose des formations spécialisées pour 
+                    (re)qualifier vos collaborateurs sur l'utilisation des logiciels CAD, en mettant l'accent 
+                    sur les meilleures pratiques et les applications concrètes en contexte industriel.
+                </p>
+                <a href="#" class="galerie-btn">Découvrir nos formations →</a>
+            </div>
+        </div>
 
-#texteIntro {
-  padding: 0px 20%;
-}
+        <!-- Cleo Bâtiment Card -->
+        <div class="galerie-card galerie-card-right">
+            <div class="galerie-content">
+                <div class="galerie-badge">Bâtiment</div>
+                <h2 class="galerie-title">Cleo Bâtiment</h2>
+                <h3 class="galerie-subtitle">Pourquoi le CAD ?</h3>
+                <p class="galerie-text">
+                    Pour toute entreprise dans le domaine de la construction et fabrication mécanique, 
+                    l'outil de Construction CAD est incontournable au vu de la modernisation et de l'avancée 
+                    de la technologie dans ce domaine.
+                </p>
+                <p class="galerie-text">
+                    Afin que vous soyez toujours à la page, CLEO vous offre des formations spécifiques 
+                    pour régénérer vos ingénieurs sur l'utilisation des outils CAD et garantir une meilleure 
+                    productivité, réactivité et adaptation aux exigences du marché actuel.
+                </p>
+                <a href="#" class="galerie-btn">Découvrir nos formations →</a>
+            </div>
+            <div class="galerie-image">
+                <div class="image-slider d2"></div>
+            </div>
+        </div>
 
-#prestations {
-    max-width: 1400px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 40px;
-    padding: 20px 5%;
-}
-
-.card-prestations {
-    background: white;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    transition: all 0.4s ease;
-    position: relative;
-}
-
-.card-prestations:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(19, 114, 151, 0.3);
-}
-
-.card-image-wrapper {
-    position: relative;
-    height: 300px;
-    overflow: hidden;
-}
-
-.card-image-wrapper img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-}
-
-.card-prestations:hover .card-image-wrapper img {
-    transform: scale(1.1);
-}
-
-.card-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(to bottom, transparent 0%, rgba(19, 114, 151, 0.8) 100%);
-    opacity: 0;
-    transition: opacity 0.4s ease;
-}
-
-.card-prestations:hover .card-overlay {
-    opacity: 1;
-}
-
-.card-content {
-    padding: 30px;
-}
-
-.card-title {
-    font-family: 'Dancing Script', cursive;
-    font-size: 2em;
-    color: #137297;
-    margin-bottom: 15px;
-    font-weight: 600;
-}
-
-.card-description {
-    color: #555;
-    font-size: 1.1em;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    text-align: left;
-}
-
-.card-link {
-    display: inline-block;
-    padding: 12px 30px;
-    background: linear-gradient(135deg, #137297, #1a9ac9);
-    color: white;
-    text-decoration: none;
-    border-radius: 25px;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(19, 114, 151, 0.3);
-}
-
-.card-link:hover {
-    background: linear-gradient(135deg, #0f5a78, #137297);
-    transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(19, 114, 151, 0.4);
-}
-
-.card-badge {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background: rgba(255, 255, 255, 0.95);
-    padding: 8px 20px;
-    border-radius: 20px;
-    font-weight: 600;
-    color: #137297;
-    font-size: 0.9em;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    z-index: 10;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    #prestations {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-    
-    .card-title {
-        font-size: 1.6em;
-    }
-    
-    .card-image-wrapper {
-        height: 250px;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1200px) {
-    #prestations {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-#galerie12 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 2px 10%;  
-
-}
-.imagesPrestations12 img {
-  border-radius: 10px;
-  box-shadow: 10px 5px 3px 1px rgba(0,0,0,0.7);
-  height: 500px; 
-  
-}
-.imagesPrestations h4 {
-  font-family: 'Dancing Script', cursive;
-  text-align: center;
-  font-size: 1.8em;
-  margin: 15px;
-  font-weight: 300;
-}
-.imagesPrestations img  {
-  border-radius: 10px;
-  box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
-  height: 200px;
-  
-
-}
-.imagesPrestations img {
-  border-radius: 10px;
-  box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
-  height: 400px;
-  width: 600px;
+    </div>
+</section>
 
   
 
-}
-.imagesPrestations img:hover {
-  opacity: 0.5;
-  transform: scale(1.05);
-  transition: 0.8s ease-in-out;
-}
+    <section id="tourisme">
+      <h2>Et tant à découvrir...</h2>
+      <ul>
+       
+    </section>
 
-.conteneur{
-  max-width: 500px;
-  margin: 45px auto;
- 
-}
-.d1{
-  width: 576px;
-  height: 432px;
-  margin: 50px auto;
-  box-shadow: 0px 15px 10px -5px #777;
-  background-color: #EDEDED;
-  background-size: contain;
-  animation: fondu 30s ease-in-out infinite both;
-}
-.d2{
-  border-radius: 20px;
-  width: 600px;
-  height: 400px;
-  margin: 50px auto;
+    <footer>
+      <h2 id="contact">Contactez-nous</h2>
 
-  box-shadow: 0px 15px 10px -5px #777;
-  background-color: #EDEDED;
-  background-size: contain;
-  animation: fondu2 20s ease-in-out infinite both;
-  
-}
-.d3{
-  border-radius: 10px;
-  width: 100%;
-  height: 100px;
-  padding-top: 70%;
-  background-repeat:repeat-x;
-  box-shadow: 0px 15px 10px #777;
-  background-color: #EDEDED;
-  background-size: contain;
-  animation: fondu2 25s ease-in-out infinite both;
-  
-}
-.d1:hover, .d2:hover{
-  animation-play-state: paused;
-}
-@keyframes fondu{
-  0%{background-image: url("media/mecha1.jpg");}
-  100%{background-image: url("media/mecha2.jpg");}
-  89%{background-image: url("media/mecha3.jpg");}
-  80%{background-image: url("media/mecha5.jpg");}
-  50%{background-image: url("media/mecha4.jpg");}
-  90%{background-image: url("media/mecha6.jpg");}
-}
-@keyframes fondu2{
-  0%{background-image: url("media/bat2.jpg");}
-  100%{background-image: url("media/bat2.jpg");}
-  80%{background-image: url("media/bat3.jpg");}
-  100%{background-image: url("media/bat4.jpg");}
-  100%{background-image: url("media/bat5.jpg");}
-/* **************** TOURISME ********************** */
-}
+      <form method="post" action="#" onsubmit="">
+        
+        <input type="text" placeholder="Nom" id="fname"> </label>
+        <input placeholder="E-mail">
+        <textarea placeholder="Votre message ici..."></textarea>
+      <button>Envoyer</button>
+      </form>
+     
+      <div id="deuxiemeTrait"></div>
+      <div id="copyrightEtIcons">
+        <div id="copyright">
+          <span>© fromScratch(); 2020</span>
+        </div>
+        <div id="icons">
+          <a href="http://www.twitter.fr"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.facebook.com/Cleo-Cad-103950387747611"><i class="fa fa-facebook"></i></a>
+          <a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a>
 
+        </div>
+      </div>
 
-#tourisme #chateau, #tourisme #vignoble {
-  float: right;
-}
-#chateau p, #vignoble p {
-  float: left;
-  background-color: cyan;
-  margin-left: -180px;
-  box-shadow: -4px 4px 0 1px rgba(15,154,156,1);
-}
-/* ******************* FOOTER ******************** */
-footer {
-  
-  background-color: #137297;
-  color: #FFFAE1;
-  padding: 20px 0 10px 0;
-  text-align: center;
-}
-form {
-  margin: 0 auto;
-  max-width: 900px;
-}
-input, textarea, button {
-  border: none;
-  width: 55%;
-  padding: 15px 10px;
-  margin: 1px 0;
-  font-size: 1.2em;
-  font-family: 'Advent Pro', sans-serif;
-  border-radius: 8px;
-}
-textarea {
-  height: 120px;
-}
-button {
-  font-size: 1.5em;
-  background-color: #FFFAE1;
-}
-button:hover {
-  background-color: #e55039;
-  color: #FFFAE1;
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
-}
-#deuxiemeTrait {
-  height: 1px;
-  width: 75%;
-  background-color: #FFFAE1;
-  margin: 60px auto;
-}
-#copyrightEtIcons {
-  display: flex;
-  margin-bottom: 20px;
-  padding: 0 10%;
-}
-#copyright {
-  width: 50%;
-  text-align: left;
-  color: #FFFAE1;
-}
-#icons {
-  width: 50%;
-  text-align: right;
-}
-#icons a {
-  display: inline-block;
-  padding: 0 15px;
-  font-size: 3.3em;
-  color: #FFFAE1;
-}
-#icons a:hover {
-  transform: scale(1.5);
-  transition: 0.1s;
-}
+    </footer>
+  </body>
 
+  <script>
+    function checking(){
+        if (document.getElementById('fname').value==""){
+            alert('please enter your first name');
+            document.getElementById('fname').style.borderColor="red";
+            return false;
+        
+        }
+    }
+</script>
 
-#yet1{
-  width: 30%;
-  height: 30%;
-  padding-left: 50%;
-}
-#yet2{
-  
-  width: 30%;
-  height: 30%;
-  padding-left: 10%;
-  
-}
-#yeteg{
-  border-top-color: blue;
-
-position: relative;
-
-}
-#wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 200px 200px;
-  grid-gap: 10px;
-  grid-template-areas:
-    "box-1 box-2 . box-3"
-    "box-4 box-5 . box-6";
-}
-
-/* ici commence la partie de l'animmation du ba*/
-.container01{
-  position: relative;
-  width: 1200px; /* hauteur de chaque carreau*/
-  height: 400px; /*lageuer de cahque carreau*/
-  margin: 30px auto; /* comment il est serrer doít etre serrer dans la 
-  division*/ 
-  ;
-}
-.container01 .box01{
-  position: relative;
-  width: calc(400px - 30px);
-  height: calc(400px - 30px);
-  background: rgba(54, 33, 17, 0.562);
-  border-radius: 10px;
-  float: left;
-
-  margin: 15px;
-  box-sizing: border-box;
-  overflow: hidden;
-}
-.container01 .box01 .icon01{
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(87, 47, 139, 0.363);
-  transition: 0.5s;
-  
-}
-.container01 .box01:hover .icon01{
-top: 20px;
-left:calc(50% -40px);
-
-width: 80px;
-height: 80px;
-border-radius: 50%;
-}
-.container01 .box01 .icon01 .fa{
-position: relative;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-font-size: 80px;
-transition: 0.5s;
-color:#fff;
-}
-.container01 .box01:hover .icon01 .fa{
-font-size: 40px;
-}
-.container01 .box01 .content01
-{
-position: relative;
-top: 120px;
-height: calc(100% - 100px);
-text-align: center;
-padding: 20px;
-box-sizing: border-box;
-transition: 0.5s;
-}
-
-
-
-/* ###### ici commence ma boite */
-.demo{
-  position: relative;
-  width: 1400px;  /*hauteur de chaque carreau*/
-  height: 800px; /*lageuer de cahque carreau*/
-  margin: 1px auto; /* comment il est serrer doít etre serrer dans la 
-  division*/ 
-  margin-right: 5px;
-  
-  ;
-}
-
-.demo .boite{
-  position: relative;
-  width: 600px;/*calc(650px - 30px);*/
-  height: 80%;/*calc(700px - 10px);*/
-  background:rgba(234, 233, 241, 0.993);
-  border-radius: 10px;
-  float: left;
-
-  margin: 1px;/* l'ecart entre les deux carreaux*/
-  box-sizing: border-box;
-  overflow: hidden;
-}
-
-.mecha-page #presentation {
-    background: linear-gradient(135deg, rgba(81, 114, 78, 0.1) 0%, rgba(234, 233, 241, 0.336) 100%);
-}
-
-.mecha-page .card-prestations {
-    border: 2px solid rgba(81, 114, 78, 0.1);
-}
-
-.mecha-page .card-badge {
-    background: rgba(81, 114, 78, 0.95);
-    color: white;
-}
-
-.mecha-page .card-title {
-    color: #51724e;
-}
-
-.mecha-page .card-link {
-    background: linear-gradient(135deg, #51724e, #6a9460);
-}
-
-.mecha-page .card-link:hover {
-    background: linear-gradient(135deg, #3f5a3d, #51724e);
-}
-
-/* 
-   Um die mecha-spezifischen Styles zu aktivieren,
-   füge im <body> Tag von mecha.html hinzu:
-   <body class="mecha-page">
-*/
+</html>
